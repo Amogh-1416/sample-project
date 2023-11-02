@@ -8,5 +8,5 @@ None must be empty
 */
 
 
-    const d = new Date()
-    document.getElementById('date').innerHTML = "Date: " + d.getDate()+'-'+d.getMonth()+'-'+d.getFullYear()
+const d = new Date()
+document.getElementById('date').innerHTML = "Date: " + d.getDate()+'-'+d.getMonth()+'-'+d.getFullYear()
