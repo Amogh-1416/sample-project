@@ -8,7 +8,7 @@
     <title>Feedback Form</title>
   </head>
   <body>
-    <div class="container">
+    <div id="MainContainer" class="container">
     <div class="m-4 container-head">
     <h1 class="text-center">XYZ Diagnostic Center</h1>
     </div>
@@ -25,7 +25,7 @@
     </div>
     <div class="mb-3">
     <p>Date:</p>
-    <input type="text">
+    <input type="date">
     </div>
     
     <table>
@@ -277,10 +277,14 @@
       </tbody>
     </table>
     
-      <button class="btn btn-primary m-3" type="reset">CANCEL</button>
-      <button class="btn btn-primary m-3" type="submit">SUBMIT</button>
+      <button id="reset" class="btn btn-primary m-3" type="reset">CANCEL</button>
+      <button id="submit" class="btn btn-primary m-3" type="submit">SUBMIT</button>
     </footer>
+    <div id="main-info">
     </div>
-    </div>
+    
+  </div>
+    
   </body>
+  <script src="basic.js"></script>
 </html>
