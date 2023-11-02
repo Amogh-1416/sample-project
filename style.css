@@ -2,11 +2,17 @@
     color:green;
 }
 .head-1{
-    background-color:greenyellow;
+    background-color:rgb(83, 209, 0);
 }
 .container{
     height: 100vh;
 }
 .bold{
     font-weight:bold;
+}
+tr{
+    text-align: center;
+}
+.con{
+    text-align: start;
 }
