@@ -6,6 +6,10 @@ Email --> Can be duplicate
 All Fields are required
 None must be empty
 */
+
+
+const d = new Date()
+document.getElementById('date').innerHTML = "Date: " + d.getDate()+'-'+d.getMonth()+'-'+d.getFullYear()
 let arr=100
 let info=document.getElementById("main-info");
 let mainContainer=document.getElementById("MainContainer");
