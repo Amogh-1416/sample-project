@@ -8,8 +8,6 @@
     <title>Feedback Form</title>
   </head>
   <body>
-    <div id="MainContainer" class="container">
-    <form action="" method="post">
     <div class="container">
     <div class="m-4 container-head">
     <h1 class="text-center">XYZ Diagnostic Center</h1>
@@ -27,15 +25,14 @@
     </div>
     <br>
     <div class="mb-3">
-
     <p id="date"></p>
     </div>
     
-    <table>
+    <table width="100%">
       <thead>
         <tr class="head-1">
-          <th>A</th>
-          <th>FONT OFFICE RECPTION</th>
+          <th width="5%">A</th>
+          <th class="con">FONT OFFICE RECPTION</th>
           <th>EXCELLENT</th>
           <th>GOOD</th>
           <th>AVG</th>
@@ -45,17 +42,19 @@
       <tbody>
         <tr>
           <td>1</td>
-          <td>
+          <td class="con">
             Receptionist attended to you promptly and provided right information
           </td>
+          <div class="con">
           <td><input type="radio" name="membership" id="membership" required/></td>
           <td><input type="radio" name="membership" id="membership" /></td>
           <td><input type="radio" name="membership" id="membership" /></td>
           <td><input type="radio" name="membership" id="membership" /></td>
+        </div>
         </tr>
         <tr>
           <td>2</td>
-          <td>Waiting time at the desk for registration</td>
+          <td class="con">Waiting time at the desk for registration</td>
           <td><input type="radio" name="b" id="b" required/></td>
           <td><input type="radio" name="b" id="b" /></td>
           <td><input type="radio" name="b" id="b" /></td>
@@ -63,7 +62,7 @@
         </tr>
         <tr>
           <td>3</td>
-          <td>
+          <td class="con">
             Councilling provided for pre-invesigation prepartion if required
           </td>
           <td><input type="radio" name="c" id="c" required/></td>
@@ -73,7 +72,7 @@
         </tr>
         <tr>
           <td>4</td>
-          <td>answered satisfactorily</td>
+          <td class="con">answered satisfactorily</td>
           <td><input type="radio" name="d" id="d" required/></td>
           <td><input type="radio" name="d" id="d" /></td>
           <td><input type="radio" name="d" id="d" /></td>
@@ -81,7 +80,7 @@
         </tr>
         <tr>
           <td>5</td>
-          <td>you were directed to various department correctly</td>
+          <td class="con">you were directed to various department correctly</td>
           <td><input type="radio" name="e" id="e" required/></td>
           <td><input type="radio" name="e" id="e" /></td>
           <td><input type="radio" name="e" id="e" /></td>
@@ -89,7 +88,7 @@
         </tr>
         <tr>
           <td>6</td>
-          <td>Were you told the time to collect the reports</td>
+          <td class="con">Were you told the time to collect the reports</td>
           <td><input type="radio" name="f" id="f" required/></td>
           <td><input type="radio" name="f" id="f" /></td>
           <td><input type="radio" name="f" id="f" /></td>
@@ -99,7 +98,7 @@
       <thead>
         <tr class="head-1">
           <th>B</th>
-          <th>DIAGNOSTIC SERVICES</th>
+          <th class="con">DIAGNOSTIC SERVICES</th>
           <th>EXCELLENT</th>
           <th>GOOD</th>
           <th>AVG</th>
@@ -109,7 +108,7 @@
       <tbody>
         <tr>
           <td>1</td>
-          <td>Waiting time for lab tests/Radiology tests</td>
+          <td class="con">Waiting time for lab tests/Radiology tests</td>
           <td><input type="radio" name="membership" id="membership" required/></td>
           <td><input type="radio" name="membership" id="membership" /></td>
           <td><input type="radio" name="membership" id="membership" /></td>
@@ -117,7 +116,7 @@
         </tr>
         <tr>
           <td>2</td>
-          <td>Advice about the test conducted</td>
+          <td class="con">Advice about the test conducted</td>
           <td><input type="radio" name="b" id="b" required/></td>
           <td><input type="radio" name="b" id="b" /></td>
           <td><input type="radio" name="b" id="b" /></td>
@@ -125,7 +124,7 @@
         </tr>
         <tr>
           <td>3</td>
-          <td>Comfort during procedure</td>
+          <td class="con">Comfort during procedure</td>
           <td><input type="radio" name="c" id="c" required/></td>
           <td><input type="radio" name="c" id="c" /></td>
           <td><input type="radio" name="c" id="c" /></td>
@@ -135,7 +134,7 @@
       <thead>
         <tr class="head-1">
           <th>C</th>
-          <th>SAMPLE COLLECTION</th>
+          <th class="con">SAMPLE COLLECTION</th>
           <th>EXCELLENT</th>
           <th>GOOD</th>
           <th>AVG</th>
@@ -145,7 +144,7 @@
       <tbody>
         <tr>
           <td>1</td>
-          <td>Waiting time for giving sample</td>
+          <td class="con">Waiting time for giving sample</td>
           <td><input type="radio" name="membership" id="membership" required/></td>
           <td><input type="radio" name="membership" id="membership" /></td>
           <td><input type="radio" name="membership" id="membership" /></td>
@@ -153,7 +152,7 @@
         </tr>
         <tr>
           <td>2</td>
-          <td>Hospitality by staff at Sample collection area</td>
+          <td class="con">Hospitality by staff at Sample collection area</td>
           <td><input type="radio" name="b" id="b" required/></td>
           <td><input type="radio" name="b" id="b" /></td>
           <td><input type="radio" name="b" id="b" /></td>
@@ -161,7 +160,7 @@
         </tr>
         <tr>
           <td>3</td>
-          <td>Were you made comfortable during the sample collection</td>
+          <td class="con">Were you made comfortable during the sample collection</td>
           <td><input type="radio" name="c" id="c" required/></td>
           <td><input type="radio" name="c" id="c" /></td>
           <td><input type="radio" name="c" id="c" /></td>
@@ -171,7 +170,7 @@
       <thead>
         <tr class="head-1">
           <th>D</th>
-          <th>OTHER FACILITIES</th>
+          <th class="con">OTHER FACILITIES</th>
           <th>EXCELLENT</th>
           <th>GOOD</th>
           <th>AVG</th>
@@ -181,7 +180,7 @@
       <tbody>
         <tr>
           <td>1</td>
-          <td>
+          <td class="con">
             House Keeping (Cleanliness of investigation rooms,sample
             collectionand toilets)
           </td>
@@ -192,7 +191,7 @@
         </tr>
         <tr>
           <td>2</td>
-          <td>Waiting area</td>
+          <td class="con">Waiting area</td>
           <td><input type="radio" name="b" id="b" required/></td>
           <td><input type="radio" name="b" id="b" /></td>
           <td><input type="radio" name="b" id="b" /></td>
@@ -200,7 +199,7 @@
         </tr>
         <tr>
           <td>3</td>
-          <td>Canteen sevices</td>
+          <td class="con">Canteen sevices</td>
           <td><input type="radio" name="c" id="c" required/></td>
           <td><input type="radio" name="c" id="c" /></td>
           <td><input type="radio" name="c" id="c" /></td>
@@ -210,7 +209,7 @@
       <thead>
         <tr class="head-1">
           <th>E</th>
-          <th>OVERALL EXPERIENCE</th>
+          <th class="con">OVERALL EXPERIENCE</th>
           <th>EXCELLENT</th>
           <th>GOOD</th>
           <th>AVG</th>
@@ -220,7 +219,7 @@
       <tbody>
         <tr>
           <td>1</td>
-          <td>Overall service received at XYZ diagnostic Center</td>
+          <td class="con">Overall service received at XYZ diagnostic Center</td>
           <td><input type="radio" name="membership" id="membership" required/></td>
           <td><input type="radio" name="membership" id="membership" /></td>
           <td><input type="radio" name="membership" id="membership" /></td>
@@ -228,7 +227,7 @@
         </tr>
         <tr>
           <td>2</td>
-          <td>
+          <td class="con">
             Would you recommend a friend /relative to XYZ Diagnostic Centre
           </td>
           <td><input type="radio" name="b" id="b" required/></td>
@@ -253,7 +252,16 @@
       </tr>
     </footer>
     </div>
-    <textarea cols="100" rows="5"></textarea>
+    <div  style="text-align: center;">
+      <table width="60%">
+      <tr>
+        <td><input type="radio"> Reffered by doctor</td>
+        <td><input type="radio"> Friends</td>
+        <td><input type="radio"> Relatives</td>
+        <td><input type="radio"> Others</td>
+      </tr>
+    </table>
+      </div>
     <table>
       <thead>
         <th class="pb-3">PERSONAL INFORMATION</th>
@@ -280,15 +288,11 @@
       </tbody>
     </table>
     
-      <button id="reset" class="btn btn-primary m-3" type="reset">CANCEL</button>
-      <button id="submit" class="btn btn-primary m-3" type="submit">SUBMIT</button>
-
+      <button class="btn btn-primary m-3" type="reset">CANCEL</button>
+      <button class="btn btn-primary m-3" type="submit">SUBMIT</button>
     </footer>
-    <div id="main-info">
     </div>
     </div>
-  </form>
-
+    <script src="basic.js"></script>
   </body>
-  <script src="basic.js"></script>
 </html>
